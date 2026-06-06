@@ -1,0 +1,52 @@
+# Build outputs
+/bin/
+/obj/
+/publish/
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.dbproj.schemaview
+
+# Rider / VS Code
+.idea/
+.vs/
+.vscode/
+*.sln.iml
+
+# Test results
+/TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Entity Framework Migrations (optional – uncomment if you want to exclude migrations)
+# **/Migrations/
+
+# Azure Functions local settings
+local.settings.json
+
+# User-specific files
+*.rsuser
+*.DotSettings.user
+
+# Docker
+*.dockerignore
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+artifacts/

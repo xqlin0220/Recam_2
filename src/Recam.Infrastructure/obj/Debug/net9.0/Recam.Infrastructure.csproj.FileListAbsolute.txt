@@ -1,0 +1,17 @@
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/bin/Debug/net9.0/Recam.Infrastructure.deps.json
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/bin/Debug/net9.0/Recam.Infrastructure.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/bin/Debug/net9.0/Recam.Infrastructure.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/bin/Debug/net9.0/Recam.Application.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/bin/Debug/net9.0/Recam.Domain.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/bin/Debug/net9.0/Recam.Domain.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/bin/Debug/net9.0/Recam.Application.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/obj/Debug/net9.0/Recam.Infrastructure.csproj.AssemblyReference.cache
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/obj/Debug/net9.0/Recam.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/obj/Debug/net9.0/Recam.Infrastructure.AssemblyInfoInputs.cache
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/obj/Debug/net9.0/Recam.Infrastructure.AssemblyInfo.cs
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/obj/Debug/net9.0/Recam.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/obj/Debug/net9.0/Recam.In.C11BFA7A.Up2Date
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/obj/Debug/net9.0/Recam.Infrastructure.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/obj/Debug/net9.0/refint/Recam.Infrastructure.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/obj/Debug/net9.0/Recam.Infrastructure.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Recam.Infrastructure/obj/Debug/net9.0/ref/Recam.Infrastructure.dll
