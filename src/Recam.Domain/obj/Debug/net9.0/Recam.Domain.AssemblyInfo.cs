@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Recam.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e98cd61ed7f4f8b6de423d9c5a47bfe3dbc55e59")]
 [assembly: System.Reflection.AssemblyProductAttribute("Recam.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Recam.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
