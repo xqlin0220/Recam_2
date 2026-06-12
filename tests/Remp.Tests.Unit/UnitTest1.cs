@@ -1,4 +1,4 @@
-﻿namespace Recam.Tests.Unit;
+﻿namespace Remp.Tests.Unit;
 
 public class UnitTest1
 {

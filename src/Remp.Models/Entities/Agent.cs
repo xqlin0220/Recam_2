@@ -1,4 +1,4 @@
-namespace Recam.Domain.Entities;
+namespace Remp.Models.Entities;
 public class Agent
 {
     public string Id {get;set;}= string.Empty;

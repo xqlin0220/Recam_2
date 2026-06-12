@@ -797,11 +797,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Remp.Models.csproj",
+      "projectUniqueName": "/Users/xuqinglin/Downloads/bootcamp/Remp_2/src/Remp.Models/Remp.Models.csproj",
       "projectName": "Remp.Models",
-      "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Remp.Models.csproj",
+      "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Remp_2/src/Remp.Models/Remp.Models.csproj",
       "packagesPath": "/Users/xuqinglin/.nuget/packages/",
-      "outputPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/obj/",
+      "outputPath": "/Users/xuqinglin/Downloads/bootcamp/Remp_2/src/Remp.Models/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/xuqinglin/.nuget/NuGet/NuGet.Config"

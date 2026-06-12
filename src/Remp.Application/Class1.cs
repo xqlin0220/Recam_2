@@ -1,4 +1,4 @@
-﻿namespace Recam.Application;
+﻿namespace Remp.Application;
 
 public class Class1
 {

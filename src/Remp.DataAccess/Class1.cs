@@ -1,4 +1,4 @@
-﻿namespace Recam.Infrastructure;
+﻿namespace Remp.DataAccess;
 
 public class Class1
 {

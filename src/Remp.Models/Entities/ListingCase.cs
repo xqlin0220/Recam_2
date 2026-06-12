@@ -1,7 +1,7 @@
 using System.Collections;
-using Recam.Domain.Enums;
+using Remp.Models.Enums;
 
-namespace Recam.Domain.Entities;
+namespace Remp.Models.Entities;
 
 public class ListingCase
 {

@@ -1,11 +1,10 @@
 using System.Security.Principal;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Recam.Domain.Entities;
 using Remp.Models.Entities;
 using Remp.Models.Enums;
 
-namespace Recamp.DataAccess.Data;
+namespace Remp.DataAccess.Data;
 
 public class AppDbContext: IdentityDbContext<AppUser>
 {
@@ -30,7 +29,7 @@ public class AppDbContext: IdentityDbContext<AppUser>
                 entity.Property(e => e.PhotographyCompanyName)        
                     .HasMaxLength(200);     
 
-                entity.HasOne(e => e.AppUser)
+                entity.HasOne(e => e.User)
                     .WithOne()
                     .HasForeignKey<PhotographyCompany>(e => e.Id)
                     .OnDelete(DeleteBehavior.Cascade); 

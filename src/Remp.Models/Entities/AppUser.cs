@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity; 
 
-namespace Recam.Domain.Entities;
+namespace Remp.Models.Entities;
 
 public class AppUser: IdentityUser
 {
