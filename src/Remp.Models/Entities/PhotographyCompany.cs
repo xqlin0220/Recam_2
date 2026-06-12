@@ -1,8 +1,8 @@
-namespace Recam.Domain.Entities;
+namespace Remp.Models.Entities;
 
 public class PhotographyCompany
 {
-    public string id{get;  set;} = string.Empty;
+    public string Id{get;  set;} = string.Empty;
     public string PhotographyCompanyName { get; set; } = string.Empty;
 
     public AppUser User { get; set; } = null!; 

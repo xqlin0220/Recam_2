@@ -1,4 +1,4 @@
-﻿namespace Recam.Domain;
+﻿namespace Remp.Models;
 
 public class Class1
 {

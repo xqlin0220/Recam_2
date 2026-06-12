@@ -1,4 +1,4 @@
-namespace Recam.Domain.Entities;
+namespace Remp.Models.Entities;
 public class AgentListingCase
 {
     public string AgentId {get;set;} = string.Empty;

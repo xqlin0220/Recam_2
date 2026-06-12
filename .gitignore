@@ -30,7 +30,7 @@ packages/
 *.nupkg
 *.snupkg
 
-# Entity Framework Migrations (optional – uncomment if you want to exclude migrations)
+# Entity Framework Migrations (optional - uncomment if you want to exclude migrations)
 # **/Migrations/
 
 # Azure Functions local settings

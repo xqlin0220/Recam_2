@@ -1,4 +1,4 @@
-namespace Recam.Domain.Enums;
+namespace Remp.Models.Enums;
 public enum SaleCategory
 {
     ForSale = 1,

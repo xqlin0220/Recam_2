@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Recam.Models.csproj": {}
+    "/Users/xuqinglin/Downloads/bootcamp/Remp_2/src/Remp.Models/Remp.Models.csproj": {}
   },
   "projects": {
-    "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Recam.Models.csproj": {
+    "/Users/xuqinglin/Downloads/bootcamp/Remp_2/src/Remp.Models/Remp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Recam.Models.csproj",
-        "projectName": "Recam.Models",
-        "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Recam.Models.csproj",
+        "projectUniqueName": "/Users/xuqinglin/Downloads/bootcamp/Remp_2/src/Remp.Models/Remp.Models.csproj",
+        "projectName": "Remp.Models",
+        "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Remp_2/src/Remp.Models/Remp.Models.csproj",
         "packagesPath": "/Users/xuqinglin/.nuget/packages/",
-        "outputPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/obj/",
+        "outputPath": "/Users/xuqinglin/Downloads/bootcamp/Remp_2/src/Remp.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/xuqinglin/.nuget/NuGet/NuGet.Config"
