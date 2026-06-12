@@ -1,0 +1,5 @@
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/obj/Debug/net9.0/Recam.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/obj/Debug/net9.0/Recam.Models.AssemblyInfoInputs.cache
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/obj/Debug/net9.0/Recam.Models.AssemblyInfo.cs
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/obj/Debug/net9.0/Recam.Models.csproj.CoreCompileInputs.cache
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/obj/Debug/net9.0/Recam.Models.sourcelink.json
