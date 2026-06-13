@@ -2,6 +2,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Remp.Models.Entities;
 using Remp.DataAccess.Data;
+using Remp.Service.Services;
+using Remp.Service.Interfaces;
+using Remp.Common.Utilities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,4 +24,6 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
     options.Password.RequireNonAlphanumeric = false;
 })
 .AddEntityFrameworkStores<AppDbContext>()
-.AddDefaultTokenProviders();     
+.AddDefaultTokenProviders();    
+
+builder.Services.AddScoped<IEmailSenderService, EmailSenderService>();

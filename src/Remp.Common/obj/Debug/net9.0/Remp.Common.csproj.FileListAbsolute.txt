@@ -1,0 +1,12 @@
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/bin/Debug/net9.0/Remp.Common.deps.json
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/bin/Debug/net9.0/Remp.Common.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/bin/Debug/net9.0/Remp.Common.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/obj/Debug/net9.0/Remp.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/obj/Debug/net9.0/Remp.Common.AssemblyInfoInputs.cache
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/obj/Debug/net9.0/Remp.Common.AssemblyInfo.cs
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/obj/Debug/net9.0/Remp.Common.csproj.CoreCompileInputs.cache
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/obj/Debug/net9.0/Remp.Common.sourcelink.json
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/obj/Debug/net9.0/Remp.Common.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/obj/Debug/net9.0/refint/Remp.Common.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/obj/Debug/net9.0/Remp.Common.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/obj/Debug/net9.0/ref/Remp.Common.dll

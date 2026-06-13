@@ -1,0 +1,16 @@
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/Remp.Service.csproj.AssemblyReference.cache
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/Remp.Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/Remp.Service.AssemblyInfoInputs.cache
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/Remp.Service.AssemblyInfo.cs
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/Remp.Service.csproj.CoreCompileInputs.cache
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/Remp.Service.sourcelink.json
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Service.deps.json
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Service.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Service.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/Remp.Service.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/refint/Remp.Service.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/Remp.Service.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/ref/Remp.Service.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Common.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Common.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/Remp.Ser.E0C48DA5.Up2Date

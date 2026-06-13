@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("db0aa459-765a-4239-9fd2-813e4e5996a0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Remp.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd0c0fe5f2621be487a908010b391c144b5879bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62cbf92dae14298a898c00be18f3d70304b7c05b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Remp.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Remp.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

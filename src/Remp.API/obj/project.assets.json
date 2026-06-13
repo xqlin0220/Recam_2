@@ -104,6 +104,19 @@
           }
         }
       },
+      "BouncyCastle.Cryptography/2.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DnsClient/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -180,6 +193,23 @@
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "MailKit/4.17.0": {
+        "type": "package",
+        "dependencies": {
+          "MimeKit": "4.17.0",
+          "System.Formats.Asn1": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/MailKit.dll": {
+            "related": ".dll.config;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MailKit.dll": {
+            "related": ".dll.config;.pdb;.xml"
           }
         }
       },
@@ -811,7 +841,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.8": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.9": {
         "type": "package",
         "compile": {
           "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -967,11 +997,11 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/10.0.3": {
+      "Microsoft.Extensions.Logging.Abstractions/10.0.9": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.3",
-          "System.Diagnostics.DiagnosticSource": "10.0.3"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+          "System.Diagnostics.DiagnosticSource": "10.0.9"
         },
         "compile": {
           "lib/net9.0/Microsoft.Extensions.Logging.Abstractions.dll": {
@@ -987,11 +1017,11 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Options/10.0.8": {
+      "Microsoft.Extensions.Options/10.0.9": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.8",
-          "Microsoft.Extensions.Primitives": "10.0.8"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+          "Microsoft.Extensions.Primitives": "10.0.9"
         },
         "compile": {
           "lib/net9.0/Microsoft.Extensions.Options.dll": {
@@ -1030,7 +1060,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/10.0.8": {
+      "Microsoft.Extensions.Primitives/10.0.9": {
         "type": "package",
         "compile": {
           "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
@@ -1248,6 +1278,23 @@
           "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
             "assetType": "runtime",
             "rid": "win"
+          }
+        }
+      },
+      "MimeKit/4.17.0": {
+        "type": "package",
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.6.2",
+          "System.Security.Cryptography.Pkcs": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/MimeKit.dll": {
+            "related": ".dll.config;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MimeKit.dll": {
+            "related": ".dll.config;.pdb;.xml"
           }
         }
       },
@@ -1577,7 +1624,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/10.0.3": {
+      "System.Diagnostics.DiagnosticSource/10.0.9": {
         "type": "package",
         "compile": {
           "lib/net9.0/System.Diagnostics.DiagnosticSource.dll": {
@@ -1625,7 +1672,7 @@
       "System.Formats.Asn1/9.0.0": {
         "type": "package",
         "compile": {
-          "lib/net9.0/_._": {
+          "lib/net9.0/System.Formats.Asn1.dll": {
             "related": ".xml"
           }
         },
@@ -1814,6 +1861,28 @@
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Cryptography.Pkcs/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -2036,6 +2105,16 @@
           "bin/placeholder/Remp.Application.dll": {}
         }
       },
+      "Remp.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Remp.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Remp.Common.dll": {}
+        }
+      },
       "Remp.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -2065,6 +2144,22 @@
         },
         "runtime": {
           "bin/placeholder/Remp.Models.dll": {}
+        }
+      },
+      "Remp.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MailKit": "4.17.0",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.9",
+          "Microsoft.Extensions.Options": "10.0.9",
+          "Remp.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Remp.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Remp.Service.dll": {}
         }
       }
     }
@@ -2182,6 +2277,26 @@
         "lib/netstandard2.0/Azure.Storage.Common.xml"
       ]
     },
+    "BouncyCastle.Cryptography/2.6.2": {
+      "sha512": "7oWOcvnntmMKNzDLsdxAYqApt+AjpRpP2CShjMfIa3umZ42UQMvH0tl1qAliYPNYO6vTdcGMqnRrCPmsfzTI1w==",
+      "type": "package",
+      "path": "bouncycastle.cryptography/2.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "bouncycastle.cryptography.2.6.2.nupkg.sha512",
+        "bouncycastle.cryptography.nuspec",
+        "lib/net461/BouncyCastle.Cryptography.dll",
+        "lib/net461/BouncyCastle.Cryptography.xml",
+        "lib/net6.0/BouncyCastle.Cryptography.dll",
+        "lib/net6.0/BouncyCastle.Cryptography.xml",
+        "lib/netstandard2.0/BouncyCastle.Cryptography.dll",
+        "lib/netstandard2.0/BouncyCastle.Cryptography.xml",
+        "packageIcon.png"
+      ]
+    },
     "DnsClient/1.6.1": {
       "sha512": "4H/f2uYJOZ+YObZjpY9ABrKZI+JNw3uizp6oMzTXwDw6F+2qIPhpRl/1t68O/6e98+vqNiYGu+lswmwdYUy3gg==",
       "type": "package",
@@ -2273,6 +2388,50 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "MailKit/4.17.0": {
+      "sha512": "1nUAVLxM9fhT/78we6/AGsCesnpn5dRNLLeRqOfr52Wnk87pzVwo5YMTMyqnmoXrYc7piGhmayiMA/OgDluIjg==",
+      "type": "package",
+      "path": "mailkit/4.17.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "docs/ExchangeOAuth2.md",
+        "docs/FAQ.md",
+        "docs/GMailOAuth2.md",
+        "docs/README.md",
+        "icons/mailkit-50.png",
+        "lib/net10.0/MailKit.dll",
+        "lib/net10.0/MailKit.dll.config",
+        "lib/net10.0/MailKit.pdb",
+        "lib/net10.0/MailKit.xml",
+        "lib/net462/MailKit.dll",
+        "lib/net462/MailKit.dll.config",
+        "lib/net462/MailKit.pdb",
+        "lib/net462/MailKit.xml",
+        "lib/net47/MailKit.dll",
+        "lib/net47/MailKit.dll.config",
+        "lib/net47/MailKit.pdb",
+        "lib/net47/MailKit.xml",
+        "lib/net48/MailKit.dll",
+        "lib/net48/MailKit.dll.config",
+        "lib/net48/MailKit.pdb",
+        "lib/net48/MailKit.xml",
+        "lib/net8.0/MailKit.dll",
+        "lib/net8.0/MailKit.dll.config",
+        "lib/net8.0/MailKit.pdb",
+        "lib/net8.0/MailKit.xml",
+        "lib/netstandard2.0/MailKit.dll",
+        "lib/netstandard2.0/MailKit.dll.config",
+        "lib/netstandard2.0/MailKit.pdb",
+        "lib/netstandard2.0/MailKit.xml",
+        "lib/netstandard2.1/MailKit.dll",
+        "lib/netstandard2.1/MailKit.dll.config",
+        "lib/netstandard2.1/MailKit.pdb",
+        "lib/netstandard2.1/MailKit.xml",
+        "mailkit.4.17.0.nupkg.sha512",
+        "mailkit.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/9.0.0": {
@@ -3432,10 +3591,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.8": {
-      "sha512": "21nbDV60SRPWGIivsyl6lqBeEJNG1sginhhfWgRrr3Ais7aQ12To25OAHQxgoiJkjqy1aQ6RxpZBGYuTi7Ge6A==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.9": {
+      "sha512": "g41l/30G3K4B/d/L8kjux0+30e27c8D0FVQ/PFCpbekgfDpj9mnDhieP67EqXWvl1EWNeZh2rpR4F5B/jcDOHA==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.8",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3458,7 +3617,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.10.0.9.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -3649,10 +3808,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/10.0.3": {
-      "sha512": "lxl0WLk7ROgBFAsjcOYjQ8/DVK+VMszxGBzUhgtQmAsTNldLL5pk9NG/cWTsXHq0lUhUEAtZkEE7jOGOA8bGKQ==",
+    "Microsoft.Extensions.Logging.Abstractions/10.0.9": {
+      "sha512": "9S/DFt4cohlMPpzIxjG6kk0L8MuN2vDm9pbMCulxtJzzk82oJHVLBd8vuQxaPskaYQwKqmFmbannf5eoChgjYg==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/10.0.3",
+      "path": "microsoft.extensions.logging.abstractions/10.0.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3716,15 +3875,15 @@
         "lib/net9.0/Microsoft.Extensions.Logging.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.10.0.3.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.10.0.9.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Options/10.0.8": {
-      "sha512": "VBD+131DpTNCNDfA4kIyKTiCySvJGNhwibdWBSdFRu7GMfXLXcXODkgA+KStKbbhzraLglZWUN4nXyHgW4JIRA==",
+    "Microsoft.Extensions.Options/10.0.9": {
+      "sha512": "hyNdX4c2UwkRkzb9byw0H2DQkRzwBM3mzY2sCM9egwzTyg8dvQJmp5noQHGEaaCORQrNK3DD2gREBsc2DlXS4A==",
       "type": "package",
-      "path": "microsoft.extensions.options/10.0.8",
+      "path": "microsoft.extensions.options/10.0.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3762,7 +3921,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.10.0.8.nupkg.sha512",
+        "microsoft.extensions.options.10.0.9.nupkg.sha512",
         "microsoft.extensions.options.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -3796,10 +3955,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Primitives/10.0.8": {
-      "sha512": "OBPo4nYhMyIbtueoC10CBm6AGAbo/A9IV8QQ/6ryZS7VvmqpGT7hunazeHLxFawRzn3oLOq4jhqhpBX4tfswWQ==",
+    "Microsoft.Extensions.Primitives/10.0.9": {
+      "sha512": "fmEbAUFsaIKirgLt/lYhuFRBwhcSJN31jjHgCdbQxJiWOum6EdLjkbgGuukSP9z/a+9LibaxII/kF+GwOXgC4g==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/10.0.8",
+      "path": "microsoft.extensions.primitives/10.0.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3820,7 +3979,7 @@
         "lib/net9.0/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.10.0.8.nupkg.sha512",
+        "microsoft.extensions.primitives.10.0.9.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -4115,6 +4274,45 @@
         "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll",
         "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.xml",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "MimeKit/4.17.0": {
+      "sha512": "h/KXsCreJf8RpR/PSAtlbvYtZFndp9N8Wn1Bs248AL7ITyhn+AiIY5bLTvt60tbN2mu6g8KadtBNWygTji2lqg==",
+      "type": "package",
+      "path": "mimekit/4.17.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "docs/FAQ.md",
+        "docs/README.md",
+        "icons/mimekit-50.png",
+        "lib/net10.0/MimeKit.dll",
+        "lib/net10.0/MimeKit.dll.config",
+        "lib/net10.0/MimeKit.pdb",
+        "lib/net10.0/MimeKit.xml",
+        "lib/net462/MimeKit.dll",
+        "lib/net462/MimeKit.pdb",
+        "lib/net462/MimeKit.xml",
+        "lib/net47/MimeKit.dll",
+        "lib/net47/MimeKit.pdb",
+        "lib/net47/MimeKit.xml",
+        "lib/net48/MimeKit.dll",
+        "lib/net48/MimeKit.pdb",
+        "lib/net48/MimeKit.xml",
+        "lib/net8.0/MimeKit.dll",
+        "lib/net8.0/MimeKit.dll.config",
+        "lib/net8.0/MimeKit.pdb",
+        "lib/net8.0/MimeKit.xml",
+        "lib/netstandard2.0/MimeKit.dll",
+        "lib/netstandard2.0/MimeKit.dll.config",
+        "lib/netstandard2.0/MimeKit.pdb",
+        "lib/netstandard2.0/MimeKit.xml",
+        "lib/netstandard2.1/MimeKit.dll",
+        "lib/netstandard2.1/MimeKit.dll.config",
+        "lib/netstandard2.1/MimeKit.pdb",
+        "lib/netstandard2.1/MimeKit.xml",
+        "mimekit.4.17.0.nupkg.sha512",
+        "mimekit.nuspec"
       ]
     },
     "MongoDB.Bson/3.9.0": {
@@ -4535,10 +4733,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Diagnostics.DiagnosticSource/10.0.3": {
-      "sha512": "IuZXyF3K5X+mCsBKIQ87Cn/V4Nyb39vyCbzfH/AkoneSWNV/ExGQ/I0m4CEaVAeFh9fW6kp2NVObkmevd1Ys7A==",
+    "System.Diagnostics.DiagnosticSource/10.0.9": {
+      "sha512": "VzIU41Sb23Em98hDQc71LPwKTC72xkiG7lpCZaIkf84jBJW+ViaKPa24qqR4FPmj1N4vDWilzs6Dq5Om8aFj+Q==",
       "type": "package",
-      "path": "system.diagnostics.diagnosticsource/10.0.3",
+      "path": "system.diagnostics.diagnosticsource/10.0.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4558,7 +4756,7 @@
         "lib/net9.0/System.Diagnostics.DiagnosticSource.xml",
         "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
         "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
-        "system.diagnostics.diagnosticsource.10.0.3.nupkg.sha512",
+        "system.diagnostics.diagnosticsource.10.0.9.nupkg.sha512",
         "system.diagnostics.diagnosticsource.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -4956,6 +5154,43 @@
         "system.security.cryptography.cng.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "System.Security.Cryptography.Pkcs/8.0.1": {
+      "sha512": "CoCRHFym33aUSf/NtWSVSZa99dkd0Hm7OCZUxORBjRB16LNhIEOf8THPqzIYlvKM0nNDAPTRBa1FxEECrgaxxA==",
+      "type": "package",
+      "path": "system.security.cryptography.pkcs/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Cryptography.Pkcs.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Pkcs.targets",
+        "lib/net462/System.Security.Cryptography.Pkcs.dll",
+        "lib/net462/System.Security.Cryptography.Pkcs.xml",
+        "lib/net6.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net6.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/net7.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net7.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/net8.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net8.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
+        "lib/netstandard2.1/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.xml",
+        "system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
+        "system.security.cryptography.pkcs.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Security.Cryptography.ProtectedData/6.0.0": {
@@ -5379,6 +5614,11 @@
       "path": "../Remp.Application/Remp.Application.csproj",
       "msbuildProject": "../Remp.Application/Remp.Application.csproj"
     },
+    "Remp.Common/1.0.0": {
+      "type": "project",
+      "path": "../Remp.Common/Remp.Common.csproj",
+      "msbuildProject": "../Remp.Common/Remp.Common.csproj"
+    },
     "Remp.DataAccess/1.0.0": {
       "type": "project",
       "path": "../Remp.DataAccess/Remp.DataAccess.csproj",
@@ -5388,6 +5628,11 @@
       "type": "project",
       "path": "../Remp.Models/Remp.Models.csproj",
       "msbuildProject": "../Remp.Models/Remp.Models.csproj"
+    },
+    "Remp.Service/1.0.0": {
+      "type": "project",
+      "path": "../Remp.Service/Remp.Service.csproj",
+      "msbuildProject": "../Remp.Service/Remp.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5399,8 +5644,10 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.8",
       "Remp.Application >= 1.0.0",
+      "Remp.Common >= 1.0.0",
       "Remp.DataAccess >= 1.0.0",
       "Remp.Models >= 1.0.0",
+      "Remp.Service >= 1.0.0",
       "Swashbuckle.AspNetCore >= 10.2.1"
     ]
   },
@@ -5432,11 +5679,17 @@
             "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Application/Remp.Application.csproj": {
               "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Application/Remp.Application.csproj"
             },
+            "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/Remp.Common.csproj": {
+              "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/Remp.Common.csproj"
+            },
             "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.DataAccess/Remp.DataAccess.csproj": {
               "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.DataAccess/Remp.DataAccess.csproj"
             },
             "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Remp.Models.csproj": {
               "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Remp.Models.csproj"
+            },
+            "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/Remp.Service.csproj": {
+              "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/Remp.Service.csproj"
             }
           }
         }
