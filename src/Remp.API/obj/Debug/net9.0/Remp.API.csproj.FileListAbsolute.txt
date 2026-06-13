@@ -332,3 +332,10 @@
 /Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.API/obj/Debug/net9.0/Remp.API.csproj.Up2Date
 /Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.API/obj/Debug/net9.0/Remp.API.genruntimeconfig.cache
 /Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.API/obj/Debug/net9.0/ref/Remp.API.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.API/bin/Debug/net9.0/BouncyCastle.Cryptography.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.API/bin/Debug/net9.0/MailKit.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.API/bin/Debug/net9.0/MimeKit.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.API/bin/Debug/net9.0/Remp.Common.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.API/bin/Debug/net9.0/Remp.Service.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.API/bin/Debug/net9.0/Remp.Service.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.API/bin/Debug/net9.0/Remp.Common.pdb

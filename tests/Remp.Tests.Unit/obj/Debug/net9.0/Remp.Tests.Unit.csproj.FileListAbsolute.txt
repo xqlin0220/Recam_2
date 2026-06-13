@@ -352,3 +352,10 @@
 /Users/xuqinglin/Downloads/bootcamp/Recam_2/tests/Remp.Tests.Unit/obj/Debug/net9.0/Remp.Tes.764805CE.Up2Date
 /Users/xuqinglin/Downloads/bootcamp/Recam_2/tests/Remp.Tests.Unit/obj/Debug/net9.0/Remp.Tests.Unit.genruntimeconfig.cache
 /Users/xuqinglin/Downloads/bootcamp/Recam_2/tests/Remp.Tests.Unit/obj/Debug/net9.0/ref/Remp.Tests.Unit.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/tests/Remp.Tests.Unit/bin/Debug/net9.0/BouncyCastle.Cryptography.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/tests/Remp.Tests.Unit/bin/Debug/net9.0/MailKit.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/tests/Remp.Tests.Unit/bin/Debug/net9.0/MimeKit.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/tests/Remp.Tests.Unit/bin/Debug/net9.0/Remp.Common.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/tests/Remp.Tests.Unit/bin/Debug/net9.0/Remp.Service.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/tests/Remp.Tests.Unit/bin/Debug/net9.0/Remp.Common.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/tests/Remp.Tests.Unit/bin/Debug/net9.0/Remp.Service.pdb

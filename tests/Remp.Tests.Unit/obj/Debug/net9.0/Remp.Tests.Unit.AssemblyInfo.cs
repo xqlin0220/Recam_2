@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Remp.Tests.Unit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd0c0fe5f2621be487a908010b391c144b5879bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62cbf92dae14298a898c00be18f3d70304b7c05b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Remp.Tests.Unit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Remp.Tests.Unit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
