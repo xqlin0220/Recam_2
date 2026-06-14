@@ -5,17 +5,19 @@ using Remp.DataAccess.Data;
 using Remp.Service.Services;
 using Remp.Service.Interfaces;
 using Remp.Common.Utilities;
+using Remp.API.Middlewares;
+using Remp.API.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Register DbContext
+// 1. DbContext Registration
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")
     )
 );
 
-// Register ASP.NET Identity
+// 2. ASP.NET Identity Registration
 builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 {
     options.Password.RequireDigit = true;
@@ -26,4 +28,18 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 .AddEntityFrameworkStores<AppDbContext>()
 .AddDefaultTokenProviders();    
 
+// 3. Custom Services (DI)
 builder.Services.AddScoped<IEmailSenderService, EmailSenderService>();
+
+// 4. Controllers
+builder.Services.AddControllers();
+
+// 5. Middleware Pipeline
+var app = builder.Build();
+app.UseExceptionMiddleware();
+app.UseHttpsRedirection();
+app.UseAuthentication();
+app.UseAuthorization();
+app.MapControllers();
+
+app.Run();
