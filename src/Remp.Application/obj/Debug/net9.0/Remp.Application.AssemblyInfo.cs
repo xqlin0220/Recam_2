@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Remp.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca839fe463ceb922d6ffe797f9da3e66cb8c2265")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54035952fc64a4bc4fdfb5bd4bb28fd3b3187d93")]
 [assembly: System.Reflection.AssemblyProductAttribute("Remp.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Remp.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
