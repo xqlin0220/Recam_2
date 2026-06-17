@@ -1401,6 +1401,16 @@
           "lib/net7.0/ZstdSharp.dll": {}
         }
       },
+      "Remp.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Remp.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Remp.Common.dll": {}
+        }
+      },
       "Remp.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -3774,6 +3784,11 @@
         "zstdsharp.port.nuspec"
       ]
     },
+    "Remp.Common/1.0.0": {
+      "type": "project",
+      "path": "../Remp.Common/Remp.Common.csproj",
+      "msbuildProject": "../Remp.Common/Remp.Common.csproj"
+    },
     "Remp.Models/1.0.0": {
       "type": "project",
       "path": "../Remp.Models/Remp.Models.csproj",
@@ -3787,6 +3802,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 10.0.8",
       "MongoDB.Driver >= 3.9.0",
+      "Remp.Common >= 1.0.0",
       "Remp.Models >= 1.0.0"
     ]
   },
@@ -3815,6 +3831,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/Remp.Common.csproj": {
+              "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/Remp.Common.csproj"
+            },
             "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Remp.Models.csproj": {
               "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Remp.Models.csproj"
             }
