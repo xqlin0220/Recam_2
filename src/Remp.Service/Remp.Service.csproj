@@ -8,12 +8,16 @@
 
   <ItemGroup>
     <PackageReference Include="MailKit" Version="4.17.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.9" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.9" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.19.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Remp.Common\Remp.Common.csproj" />
+    <ProjectReference Include="..\Remp.Models\Remp.Models.csproj" />
+    <ProjectReference Include="..\Remp.DataAccess\Remp.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

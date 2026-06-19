@@ -1,6 +1,6 @@
 namespace Remp.Common.Exceptions;
 
-public abstract class ValidationException: AppException
+public class ValidationException: AppException
 {
     public List<string> Errors {get;}
 

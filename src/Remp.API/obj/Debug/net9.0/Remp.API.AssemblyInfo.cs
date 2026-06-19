@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Remp.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54035952fc64a4bc4fdfb5bd4bb28fd3b3187d93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88dbc6d2aebf4c1c69655910d9634fbb574a20e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Remp.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Remp.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

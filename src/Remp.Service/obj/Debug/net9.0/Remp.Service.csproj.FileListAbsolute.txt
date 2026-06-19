@@ -7,10 +7,14 @@
 /Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Service.deps.json
 /Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Service.dll
 /Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Service.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Common.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.DataAccess.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Models.dll
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Common.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Models.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.DataAccess.pdb
+/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/Remp.Ser.E0C48DA5.Up2Date
 /Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/Remp.Service.dll
 /Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/refint/Remp.Service.dll
 /Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/Remp.Service.pdb
 /Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/ref/Remp.Service.dll
-/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Common.dll
-/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/bin/Debug/net9.0/Remp.Common.pdb
-/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Service/obj/Debug/net9.0/Remp.Ser.E0C48DA5.Up2Date
