@@ -230,6 +230,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.19.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.19.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -272,6 +282,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/Remp.Common.csproj": {
+                "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/Remp.Common.csproj"
+              },
               "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Remp.Models.csproj": {
                 "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Remp.Models.csproj"
               }
@@ -312,7 +325,7 @@
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[3.9.0, )"
+              "version": "[2.24.0, )"
             }
           },
           "imports": [
@@ -378,6 +391,10 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.9.0, )"
             }
           },
           "imports": [
@@ -424,6 +441,12 @@
             "projectReferences": {
               "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/Remp.Common.csproj": {
                 "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Common/Remp.Common.csproj"
+              },
+              "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.DataAccess/Remp.DataAccess.csproj": {
+                "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.DataAccess/Remp.DataAccess.csproj"
+              },
+              "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Remp.Models.csproj": {
+                "projectPath": "/Users/xuqinglin/Downloads/bootcamp/Recam_2/src/Remp.Models/Remp.Models.csproj"
               }
             }
           }
@@ -448,6 +471,10 @@
               "target": "Package",
               "version": "[4.17.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[10.0.9, )"
@@ -455,6 +482,10 @@
             "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[10.0.9, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.19.1, )"
             }
           },
           "imports": [
