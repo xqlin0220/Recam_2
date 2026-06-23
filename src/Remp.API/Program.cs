@@ -11,6 +11,7 @@ using Remp.DataAccess.Collections;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -83,6 +84,8 @@ builder.Services
     });
 
 builder.Services.AddAuthorization();
+builder.Services.AddValidatorsFromAssemblyContaining
+    <Remp.Service.Validators.RegisterRequestValidator>();
 
 // Middleware Pipeline
 var app = builder.Build();
